@@ -1,0 +1,49 @@
+<html>
+  <head>
+    <title>Image recognition</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+   <link rel="stylesheet" href="style.css">
+  
+  </head>
+
+  <body>
+  <div class="container">
+    
+    
+      <h3 class="btn btn-default heading">IMAGE RECOGNITION</h3>
+      <br><br>
+
+      <p style="font-size: 22px;">Model is trained to identify the following objects: </p>
+      <b class="name_of_objects">
+        Mom
+        <hr>
+        Dad
+        <hr>
+        Brother
+      </b>
+      <br> <br>
+      <label>Webcam View - </label>
+        <div id="camera"></div>
+      <br><br>
+      <div id="result"></div>
+      <br><br>
+    <button onclick="take_snapshot();" class="btn btn-info">Capture Image</button>
+      <br><br>
+      <button onclick="check();"class="btn btn-success">identify Image</button>
+
+      <br><br>
+
+      <p style="font-size: 22px;">Object :  </p>
+      <p style="font-size: 22px;">Accuracy :  </p>
+    
+
+  
+
+  </div>
+<script src="main.js"></script>
+
+  </body>
+</html>
+
+ 
